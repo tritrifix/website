@@ -1,4 +1,4 @@
-# Logos des services
+# Logos des services & photo de profil
 
 Dépose ici les logos référencés dans `services.js`. Tant qu'un fichier
 n'existe pas (ou que l'image ne charge pas), la tuile correspondante
@@ -8,7 +8,7 @@ casse, aucune configuration à changer.
 Format recommandé : PNG ou JPG carré, 128×128 px suffit (SVG possible
 aussi, il suffit d'adapter l'extension dans `services.js`).
 
-Emplacements attendus pour les 15 services actuels :
+Emplacements attendus pour les services actuels :
 
 | Fichier                     | Service          |
 |------------------------------|------------------|
@@ -25,8 +25,14 @@ Emplacements attendus pour les 15 services actuels :
 | `stoguard.png`                 | Stoguard         |
 | `dawarich.png`                 | Dawarich         |
 | `zammad.png`                   | Zammad           |
-| `home-assistant.png`           | Home Assistant   |
-| `home-assistant-2.png`         | Home Assistant 2 |
+| `home-assistant.png`           | Home Assistant, Home Assistant 1 (référencent actuellement le même fichier) |
 
 Pour ajouter un nouveau service : dépose son logo ici puis référence
 le chemin dans `services.js` (voir le README à la racine du dépôt).
+
+## Photo de profil
+
+L'avatar dans l'en-tête (`index.html` et `contact.html`) suit le même
+principe : dépose une photo carrée sous le nom `avatar.jpg` et elle
+remplacera automatiquement l'initiale "T". Sans fichier, l'initiale
+reste affichée — rien d'autre à changer.

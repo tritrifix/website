@@ -13,93 +13,93 @@
 const SERVICES = [
   {
     name: "Wiki",
-    url: "#",
+    url: "https://wiki.fixary.info",
     image: "images/wiki.png",
     desc: "Wiki personnel / documentation"
   },
   {
     name: "Guacamole",
-    url: "#",
+    url: "https://guacamole.fixary.info/guacamole",
     image: "images/guacamole.png",
     desc: "Accès distant sans client (RDP/VNC/SSH via navigateur)"
   },
   {
     name: "Passbolt",
-    url: "#",
+    url: "https://cadenas.fixary.info",
     image: "images/passbolt.png",
     desc: "Cadenas — gestionnaire de mots de passe"
   },
   {
     name: "Uptime Kuma",
-    url: "#",
+    url: "https://uptimekuma.fixary.info",
     image: "images/uptime-kuma.png",
     desc: "Supervision de la disponibilité des services"
   },
   {
     name: "FossFLOW",
-    url: "#",
+    url: "https://fossflow.fixary.info",
     image: "images/fossflow.png",
     desc: "Schémas d'infrastructure au style isométrique"
   },
   {
     name: "BentoPDF",
-    url: "#",
+    url: "https://bentopdf.fixary.info",
     image: "images/bentopdf.png",
     desc: "Boîte à outils PDF (fusion, compression, conversion)"
   },
   {
     name: "PrivateBin",
-    url: "#",
+    url: "https://privatebin.fixary.info/",
     image: "images/privatebin.png",
     desc: "Partage de texte chiffré et éphémère"
   },
   {
     name: "Gramps",
-    url: "#",
+    url: "https://gramps.fixary.info/",
     image: "images/gramps.png",
     desc: "Généalogie et arbre familial"
   },
   {
     name: "Immich",
-    url: "#",
+    url: "https://immich.fixary.info/",
     image: "images/immich.png",
     desc: "Serveur photo self-hosted"
   },
   {
     name: "IT-Tools",
-    url: "#",
+    url: "https://it-tools.fixary.info",
     image: "images/it-tools.png",
     desc: "Boîte à outils pour devs et administrateurs"
   },
   {
     name: "Stoguard",
-    url: "#",
+    url: "https://stoguard.fixary.info",
     image: "images/stoguard.png",
-    desc: "[description à compléter]"
+    desc: "Application de gestion de stock alimentaire"
   },
   {
     name: "Dawarich",
-    url: "#",
+    url: "https://dawarich.fixary.info",
     image: "images/dawarich.png",
     desc: "Historique de localisation self-hosted"
   },
   {
     name: "Zammad",
-    url: "#",
+    url: "https://zammad.fixary.info",
     image: "images/zammad.png",
     desc: "Support client / ticketing"
   },
   {
     name: "Home Assistant",
-    url: "#",
+    url: "https://homeassistant.fixary.info",
     image: "images/home-assistant.png",
-    desc: "Domotique — instance principale"
+    desc: "Domotique"
   },
   {
-    name: "Home Assistant 2",
-    url: "#",
-    image: "images/home-assistant-2.png",
-    desc: "Domotique — instance secondaire"
+    name: "Home Assistant 1",
+    url: "https://ha.fixary.info",
+    image: "images/home-assistant.png",
+    desc: "Domotique"
   }
   // Ajoute tes propres services ici en suivant le même format.
 ];
