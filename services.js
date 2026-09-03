@@ -80,7 +80,7 @@ const SERVICES = [
   {
     name: "Dawarich",
     url: "https://dawarich.fixary.info",
-    image: "images/dawarich.png",
+    image: "images/dawarich.svg",
     desc: "Historique de localisation self-hosted"
   },
   {
